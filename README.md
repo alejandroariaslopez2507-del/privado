@@ -55,7 +55,7 @@ python -m unittest -v test_sistema
 - **Logs:** `software_fj.log` registra operaciones y errores; no guarda listas de clientes ni reservas.
 - **Reservas:** pueden estar **Pendiente**, **Confirmada** o **Cancelada**. Las reservas canceladas liberan capacidad.
 
-## Supuestos de diseño (no especificados en el enunciado)
+## Supuestos de diseño 
 
 - La moneda demostrativa son **pesos colombianos (COP)**; las tarifas son valores de ejemplo ajustables.
 - Una reserva ocupa recursos de forma concurrente mientras permanezca **Confirmada**. No se implementan fechas ni calendario porque no los exige el Anexo 3; el sistema simula la disponibilidad con cupos.
