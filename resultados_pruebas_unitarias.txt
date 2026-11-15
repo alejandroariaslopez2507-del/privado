@@ -1,0 +1,28 @@
+test_asesoria_presencial (test_sistema.PruebasSoftwareFJ.test_asesoria_presencial) ... ok
+test_booleanos_no_aceptados_en_duracion (test_sistema.PruebasSoftwareFJ.test_booleanos_no_aceptados_en_duracion) ... ok
+test_correo_duplicado (test_sistema.PruebasSoftwareFJ.test_correo_duplicado) ... ok
+test_correo_invalido (test_sistema.PruebasSoftwareFJ.test_correo_invalido) ... ok
+test_descuento_invalido_reserva_pendiente (test_sistema.PruebasSoftwareFJ.test_descuento_invalido_reserva_pendiente) ... ok
+test_duracion_asesoria_mayor_cuatro (test_sistema.PruebasSoftwareFJ.test_duracion_asesoria_mayor_cuatro) ... ok
+test_duracion_cero (test_sistema.PruebasSoftwareFJ.test_duracion_cero) ... ok
+test_encapsulacion_de_opciones (test_sistema.PruebasSoftwareFJ.test_encapsulacion_de_opciones) ... ok
+test_equipo_con_unidades (test_sistema.PruebasSoftwareFJ.test_equipo_con_unidades) ... ok
+test_id_cliente_duplicado (test_sistema.PruebasSoftwareFJ.test_id_cliente_duplicado) ... ok
+test_identificador_servicio_duplicado (test_sistema.PruebasSoftwareFJ.test_identificador_servicio_duplicado) ... ok
+test_no_confirmar_dos_veces (test_sistema.PruebasSoftwareFJ.test_no_confirmar_dos_veces) ... ok
+test_no_encontrado_encadenado (test_sistema.PruebasSoftwareFJ.test_no_encontrado_encadenado) ... ok
+test_opciones_desconocidas (test_sistema.PruebasSoftwareFJ.test_opciones_desconocidas) ... ok
+test_registro_clientes (test_sistema.PruebasSoftwareFJ.test_registro_clientes) ... ok
+test_reserva_estado_y_cancelacion (test_sistema.PruebasSoftwareFJ.test_reserva_estado_y_cancelacion) ... ok
+test_sala_con_descuento_e_impuesto (test_sistema.PruebasSoftwareFJ.test_sala_con_descuento_e_impuesto) ... ok
+test_sala_ocupada_y_liberada (test_sistema.PruebasSoftwareFJ.test_sala_ocupada_y_liberada) ... ok
+test_sala_sin_recargo (test_sistema.PruebasSoftwareFJ.test_sala_sin_recargo) ... ok
+test_servicio_inactivo (test_sistema.PruebasSoftwareFJ.test_servicio_inactivo) ... ok
+test_servicio_incorrecto (test_sistema.PruebasSoftwareFJ.test_servicio_incorrecto) ... ok
+test_stock_de_equipos (test_sistema.PruebasSoftwareFJ.test_stock_de_equipos) ... ok
+test_telefono_invalido (test_sistema.PruebasSoftwareFJ.test_telefono_invalido) ... ok
+
+----------------------------------------------------------------------
+Ran 23 tests in 0.003s
+
+OK
