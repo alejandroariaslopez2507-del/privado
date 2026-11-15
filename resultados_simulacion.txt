@@ -1,0 +1,38 @@
+01. CORRECTO | Registrar cliente C001
+02. CORRECTO | Registrar cliente C002
+03. ERROR CONTROLADO | Rechazar identificador duplicado | Identificador de cliente ya registrado.
+04. ERROR CONTROLADO | Rechazar correo inválido | Correo electrónico: formato inválido.
+05. ERROR CONTROLADO | Rechazar teléfono inválido | Teléfono: use de 7 a 15 dígitos (prefijo + opcional).
+06. CORRECTO | Crear servicio de sala
+07. CORRECTO | Crear servicio de equipos
+08. CORRECTO | Crear servicio de asesoría
+09. ERROR CONTROLADO | Rechazar tarifa negativa | Tarifa por hora: debe ser mayor que cero y finito.
+10. ERROR CONTROLADO | Rechazar servicio duplicado | Identificador de servicio ya registrado.
+11. CORRECTO | Crear reserva de sala R001
+12. CORRECTO | Confirmar R001 con impuesto y descuento | 139230.00
+13. CORRECTO | Crear reserva de sala R002
+14. ERROR CONTROLADO | Rechazar sala ocupada | Capacidad insuficiente: ocupada 1, requerida 1, máximo 1.
+15. CORRECTO | Cancelar R001 y liberar sala
+16. CORRECTO | Confirmar R002 tras cancelación | 50000.00
+17. CORRECTO | Crear alquiler de dos equipos
+18. CORRECTO | Confirmar alquiler de dos equipos | 120000.00
+19. CORRECTO | Crear alquiler de otro equipo
+20. ERROR CONTROLADO | Rechazar alquiler sin stock | Capacidad insuficiente: ocupada 2, requerida 1, máximo 2.
+21. CORRECTO | Crear asesoría virtual
+22. CORRECTO | Confirmar asesoría virtual | 160000.00
+23. CORRECTO | Crear reserva con modalidad incorrecta
+24. ERROR CONTROLADO | Rechazar modalidad incorrecta | Modalidad: solo se permite 'virtual' o 'presencial'.
+25. ERROR CONTROLADO | Rechazar duración de cinco horas en asesoría | Duración: no puede superar 4.
+26. ERROR CONTROLADO | Rechazar cliente inexistente | No existe el cliente C999.
+27. ERROR CONTROLADO | Rechazar duración cero | Duración: debe ser un entero positivo.
+28. CORRECTO | Cancelar asesoría R005
+29. ERROR CONTROLADO | Rechazar doble cancelación | La reserva ya está cancelada.
+30. CORRECTO | Crear asesoría presencial
+31. ERROR CONTROLADO | Rechazar impuesto excesivo | Impuesto: debe estar entre 0 y 100.
+32. CORRECTO | Confirmar asesoría tras corregir impuesto | 114240.00
+33. ERROR CONTROLADO | Rechazar segundo procesamiento | Solo se pueden procesar reservas pendientes.
+34. CORRECTO | Deshabilitar servicio de equipos
+35. ERROR CONTROLADO | Rechazar servicio deshabilitado | El servicio está temporalmente inactivo.
+36. CORRECTO | Listar reservas sin interrumpir la app | 8
+
+RESUMEN: 21 operaciones correctas, 15 errores controlados y 0 fallos inesperados.
